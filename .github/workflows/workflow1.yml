@@ -15,6 +15,7 @@ jobs:
     - run: |
         pwd
         ls -al
+        echo teste
     - run: echo hello world
   anotherjob:
     needs: work
